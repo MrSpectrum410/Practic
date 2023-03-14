@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='index.css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg">
+    <header  class="header">
+        <a href="#"><img class="imgsvg" src="img/logo.svg"></a>
+        <div  class="header2">
+            <p class="headertext">+7 (3812) 308-136</p>
+            <div class="headertext2">
+                <p>Ответим на звонок</p>
+                <p>ПН-ПТ 06:00-15:00 Мск</p>
+            </div>
+            <button class="button" onclick="openForm()"><a class="a2">Позвоним бесплатно</a></button>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h1>
+                Нужны заявки для автосервиса из Яндекс Директ?
+            </h1>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>
+                Ответьте на несколько вопросов и получите:
+            </h2>
+        </div>
+        <div class="div1">
+            <img class="img1" src="img/img6.png">
+            <p class="text">Бесплатный аудит рекламной компании и сайта.</p>
+        </div>
+        <div class="div2">
+            <img class="img2" src="img/img2.png" width="234px" height="163px">
+            <p class="text">Расчет бюджета для эффективной рекмной кампании.</p>
+        </div>
+        <div class="div3">
+            <img class="img3" src="img/img3.png" width="200px" height="186px">
+            <p class="text">Рекомендации по повышению конверсии вашего сайта.</p>
+        </div>
+    </section>
+    <section>
+        <div class="svg">
+            <img src="img/img5.svg">
+        </div>
+    </section>
+    <div class="divform"  id="form">
+        <form class="forms">
+            <img class="closebtn" onclick="closeForm()" src="img/krestic.svg">
+            <p class="textform">Оставьте свои данные и мы свяжемся с вами для бесплатной консультации</p>
+            <input class="line" type="text" placeholder="Представьтесь" required>
+            <input class="line" type="text" placeholder="Номер вашего телефона" required>
+            <button class="formbutton" type="submit">Заказать звонок</button>
+        </form>
+    </div>
+    <button class="button1" onclick="openForm()"><a class="a1">Ответить на вопросы</a></button>
+    <img class="imgbg" src="img/img4.jpg">
+    <script>
+        function openForm() {
+          document.getElementById("form").style.display = "block";
+          document.getElementById("form").style.position = "static";
+        }
+        function closeForm() {
+            document.getElementById("form").style.display = "none";
+            document.getElementById("form").style.position = "absolute";
+        }
+    </script>
+</body>
+</html>
