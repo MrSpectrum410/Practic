@@ -243,7 +243,7 @@ margin-top: 20px;
         bottom: 0;
         right: 15px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .svg{
         top: 236vh;
         position: absolute;
