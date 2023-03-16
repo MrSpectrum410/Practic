@@ -80,9 +80,10 @@ line-height: 24px;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-line-height: 12px;
+line-height: 2px;
 color: #080808;
 margin-left: 20px;
+margin-top: 14px;
 }
 .button{
     align-items: flex-start;
