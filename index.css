@@ -245,24 +245,24 @@ margin-top: 20px;
 }
 @media (max-width: 600px) {
     .svg{
-        top: 200vh;
+        top: 236vh;
         position: absolute;
     }
     .div1{
-        top: 37vh;
-        left: 1vh;
+        top: 44vh;
+        left: 2.5vh;
         width: 460px;
         height: 510px;
     }
     .div2{
-        top: 87vh;
-        left: 1vh;
+        top: 105vh;
+        left: 2.5vh;
         width: 460px;
         height: 510px;
     }
     .div3{
-        top: 137vh;
-        left: 1vh;
+        top: 166vh;
+        left: 2.5vh;
         width: 460px;
         height: 510px;
     }
@@ -305,11 +305,11 @@ margin-top: 20px;
         height: 310px;
     }
     .button1{
-        top: 187vh;
+        top: 226vh;
         left: 15vw;
     }
     .imgbg{
-        top: 220vh;
+        top: 260vh;
         right: 0vh;
         position: absolute;
         width: auto;
