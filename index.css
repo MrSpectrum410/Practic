@@ -1,6 +1,8 @@
-body{
-    margin-left:  200px;
-    margin-right:  200px;
+.body{
+    background-color: rgb(255, 204, 0);
+    font-family: sans-serif;
+    width: 1920px;
+    height: 1080px;
 }
 .ht{
     background-color: rgba(0,0,0,0.6);
@@ -61,13 +63,6 @@ max-width: 65%;
 margin-left: auto;
 margin-right: auto;
 }
-.bg{
-    background-color: rgb(255, 204, 0);
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: auto;
-}
 .headertext{
 font-family: sans-serif;
 font-style: normal;
@@ -94,7 +89,6 @@ height: 68px;
 
 background: #080808;
 border-radius: 16px;
-font-family: sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -114,7 +108,6 @@ top: 813px;
 background: #090909;
 border-radius: 16px;
 
-font-family: sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -126,43 +119,49 @@ color: #FFFFFF;
 }
 .svg{
     position: absolute;
-    right: 20vw;
-    bottom: 65vh;
+    right: 16vw;
+    bottom: 54vh;
 }
 .header{
     display: flex;
     justify-content: space-between;
+    width: 1500px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .header2{
     display: flex;
     margin-left: 20px;
 }
 h1{
-font-family: sans-serif;
 font-style: normal;
-font-weight: 700px;
 font-size: 60px;
 line-height: 120%;
-
-
 color: #000000;
 max-width: 65%;
 margin-right: auto;
+position: absolute;
+margin-top: 85px;
+margin-left: 200px;
 }
 h2{
-font-family: sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 32px;
-
-
 color: #000000;
+position: absolute;
+margin-top: 270px;
+margin-left: 200px;
 }
 
 .imgbg{
-    width: 100%;
-    margin-left: 200px;
+    width: 2000px;
+    height: 900px;
+    margin-left: -80px;
+    margin-bottom: -25px;
+    margin-top: 68px;
 }
 .imgsvg{
 
@@ -177,15 +176,12 @@ background: #FFFFFF;
 border-radius: 40px;
 }
 .textform{
-    font-family: sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 32px;
-
 color: #000000;
-margin: auto;
-margin-left: 60px;
+margin-left: 90px;
 margin-right: 60px;
 margin-top: 35px;
 }
@@ -244,7 +240,27 @@ margin-top: 20px;
         bottom: 0;
         right: 15px;
 }
+.hedertext3{
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 23px;
+    width: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.a3{
+    color: gray;
+    text-decoration: none;
+}
+.p{
+    margin-left: 95px;
+    color: gray;
+}
 @media (max-width: 1440px) {
+    .body{
+        width: 1440px;
+        height: 848px;
+    }
     .svg{
         top: 30vh;
         right: 20vh;
@@ -305,11 +321,11 @@ margin-top: 20px;
         left: 8vw;
     }
     .imgbg{
-        width: 1560px;
-        height: 650px;
-        margin-top: 161px;
+        width: 1480px;
+        height: 645px;
+        margin-top: 91px;
         margin-bottom: -22px;
-        margin-left: 0px;
+        margin-left: -50px;
     }
     .a2{
         position: absolute;
@@ -345,9 +361,20 @@ margin-top: 20px;
         margin-left: 120px;
         margin-right: 124px;
         margin-top: 40px;
+        width: 1180px;
+    }
+    .hedertext3{
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 23px;
+        width: 400;
     }
 }
 @media (max-width: 1024px) {
+    .body{
+        width: 1024px;
+        height: 652px;
+    }
     .svg{
         top: 23vh;
         right: 20vh;
@@ -413,9 +440,9 @@ margin-top: 20px;
     .imgbg{
         width: 980px;
         height: 410px;
-        margin-top: 161px;
+        margin-top: 142px;
         margin-bottom: -30px;
-        margin-left: 34px;
+        margin-left: 86px;
     }
     .a1{
         font-size: 16px;
@@ -456,6 +483,7 @@ margin-top: 20px;
         margin-left: 120px;
         margin-right: 124px;
         margin-top: 50px;
+        width: 765px;
     }
     .headertext{
         font-size: 16px;
@@ -464,6 +492,13 @@ margin-top: 20px;
     .headertext2{
         font-size: 11px;
         line-height: 2px;
+        margin-top: 3px;
+    }
+    .hedertext3{
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 15px;
+        width: 400;
     }
 }
 @media (max-width: 540px) {
@@ -494,6 +529,9 @@ margin-top: 20px;
         display: none;
     }
     .headertext2{
+        display: none;
+    }
+    .hedertext3{
         display: none;
     }
     body{
@@ -572,6 +610,7 @@ margin-top: 20px;
     }
     .header{
         margin-left: 40px;
+        width: 445px;
     }
     h2{
         margin-left: 40px;
