@@ -1,8 +1,8 @@
 .body{
     background-color: rgb(255, 204, 0);
     font-family: sans-serif;
-    width: 1920px;
-    height: 1080px;
+    width: 1910px;
+    height: 1030px;
 }
 .ht{
     background-color: rgba(0,0,0,0.6);
@@ -57,9 +57,8 @@ font-weight: 400;
 font-size: 20px;
 line-height: 20px;
 text-align: center;
-
 color: #000000;
-max-width: 65%;
+max-width: 73%;
 margin-left: auto;
 margin-right: auto;
 }
@@ -157,9 +156,9 @@ margin-left: 200px;
 }
 
 .imgbg{
-    width: 2000px;
+    width: 1980px;
     height: 900px;
-    margin-left: -80px;
+    margin-left: -68px;
     margin-bottom: -25px;
     margin-top: 68px;
 }
@@ -258,8 +257,8 @@ margin-top: 20px;
 }
 @media (max-width: 1440px) {
     .body{
-        width: 1440px;
-        height: 848px;
+        width: 1430px;
+        height: 800px;
     }
     .svg{
         top: 30vh;
@@ -321,11 +320,11 @@ margin-top: 20px;
         left: 8vw;
     }
     .imgbg{
-        width: 1480px;
-        height: 645px;
-        margin-top: 91px;
-        margin-bottom: -22px;
-        margin-left: -50px;
+        width: 1385px;
+        height: 600px;
+        margin-top: 135px;
+        margin-bottom: -20px;
+        margin-left: 44px;
     }
     .a2{
         position: absolute;
@@ -361,7 +360,7 @@ margin-top: 20px;
         margin-left: 120px;
         margin-right: 124px;
         margin-top: 40px;
-        width: 1180px;
+        width: 1178px;
     }
     .hedertext3{
         font-size: 24px;
@@ -372,8 +371,8 @@ margin-top: 20px;
 }
 @media (max-width: 1024px) {
     .body{
-        width: 1024px;
-        height: 652px;
+        width: 990px;
+        height: 590px;
     }
     .svg{
         top: 23vh;
@@ -438,11 +437,11 @@ margin-top: 20px;
         height: 46px;
     }
     .imgbg{
-        width: 980px;
-        height: 410px;
-        margin-top: 142px;
+        width: 960px;
+        height: 405px;
+        margin-top: 144px;
         margin-bottom: -30px;
-        margin-left: 86px;
+        margin-left: 53px;
     }
     .a1{
         font-size: 16px;
@@ -587,6 +586,370 @@ margin-top: 20px;
         position: absolute;
         top: 6.5vh;
         right: 8.5vh;
+    }
+    .forms{
+        width: 450px;
+        height: 510px;
+        left: 1vh;
+        top: 20vh;
+    }
+    .textform{
+        margin-top: 0px;
+    }
+    .line{
+        width: 30vh;
+    }
+    .formbutton{
+        width: 30vh;
+    }
+    .text{
+        font-size: 32px;
+        line-height: 32px;
+        max-width: 82%;
+    }
+    .header{
+        margin-left: 40px;
+        width: 445px;
+    }
+    h2{
+        margin-left: 40px;
+        position: absolute;
+        margin-top: 240px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 425px) {
+    .body{
+        width: 520px;
+        height: 2815px;
+    }
+    .svg{
+        right: 5vh;
+        top: 248vh;
+        position: absolute;
+        width: 300px;
+    }
+    .div1{
+        top: 64vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .div2{
+        top: 124vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .div3{
+        top: 184vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .headertext{
+        display: none;
+    }
+    .headertext2{
+        display: none;
+    }
+    .hedertext3{
+        display: none;
+    }
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imgsvg{
+        width: 140px;
+        height: 30px;
+    }
+    .button{
+        width: 205px;
+        height: 54px;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: 75px;
+    }
+    h1{
+        width: 458px;
+        font-size: 48px;
+        max-width: 105%;
+        margin-left: 40px;
+    }
+    .img1{
+        width: 355px;
+        height: 310px;
+        margin-left: 50px;
+    }
+    .img2{
+        width: 355px;
+        height: 234px;
+    }
+    .img3{
+        width: 355px;
+        height: 310px;
+    }
+    .button1{
+        top: 226vh;
+        left: 8vw;
+        width: 456px;
+        height: 88px;
+    }
+    .imgbg{
+        margin-top: 2000px;
+        margin-left: -1000px;
+        width: 1525px;
+        height: 780px;
+    }
+    .a1{
+        font-size: 24px;
+    }
+    .a2{
+        position: absolute;
+        top: 6.5vh;
+        right: -4.5vh;
+    }
+    .forms{
+        width: 450px;
+        height: 510px;
+        left: 1vh;
+        top: 20vh;
+    }
+    .textform{
+        margin-top: 0px;
+    }
+    .line{
+        width: 30vh;
+    }
+    .formbutton{
+        width: 30vh;
+    }
+    .text{
+        font-size: 32px;
+        line-height: 32px;
+        max-width: 82%;
+    }
+    .header{
+        margin-left: 40px;
+        width: 445px;
+    }
+    h2{
+        margin-left: 40px;
+        position: absolute;
+        margin-top: 250px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 375px) {
+    .svg{
+        top: 248vh;
+        position: absolute;
+        width: 300px;
+    }
+    .div1{
+        top: 64vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .div2{
+        top: 124vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .div3{
+        top: 184vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .headertext{
+        display: none;
+    }
+    .headertext2{
+        display: none;
+    }
+    .hedertext3{
+        display: none;
+    }
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imgsvg{
+        width: 140px;
+        height: 30px;
+    }
+    .button{
+        width: 205px;
+        height: 54px;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: 75px;
+    }
+    h1{
+        width: 458px;
+        font-size: 48px;
+        max-width: 120%;
+        margin-left: 40px;
+    }
+    .img1{
+        width: 355px;
+        height: 310px;
+        margin-left: 50px;
+    }
+    .img2{
+        width: 355px;
+        height: 234px;
+    }
+    .img3{
+        width: 355px;
+        height: 310px;
+    }
+    .button1{
+        top: 226vh;
+        left: 10vw;
+        width: 456px;
+        height: 88px;
+    }
+    .imgbg{
+        margin-top: 2000px;
+        margin-left: -1000px;
+        width: 1530px;
+        height: 780px;
+    }
+    .a1{
+        font-size: 24px;
+    }
+    .a2{
+        position: absolute;
+        top: 6.5vh;
+        right: -10vh;
+    }
+    .forms{
+        width: 450px;
+        height: 510px;
+        left: 1vh;
+        top: 20vh;
+    }
+    .textform{
+        margin-top: 0px;
+    }
+    .line{
+        width: 30vh;
+    }
+    .formbutton{
+        width: 30vh;
+    }
+    .text{
+        font-size: 32px;
+        line-height: 32px;
+        max-width: 82%;
+    }
+    .header{
+        margin-left: 40px;
+        width: 445px;
+    }
+    h2{
+        margin-left: 40px;
+        position: absolute;
+        margin-top: 240px;
+        font-size: 32px;
+        line-height: 32px;
+        width: 440px;
+    }
+}
+@media (max-width: 320px) {
+    .svg{
+        right: -5vh;
+        top: 248vh;
+        position: absolute;
+        width: 300px;
+    }
+    .div1{
+        top: 64vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .div2{
+        top: 124vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .div3{
+        top: 184vh;
+        left: 4.5vh;
+        width: 460px;
+        height: 510px;
+    }
+    .headertext{
+        display: none;
+    }
+    .headertext2{
+        display: none;
+    }
+    .hedertext3{
+        display: none;
+    }
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imgsvg{
+        width: 140px;
+        height: 30px;
+    }
+    .button{
+        width: 205px;
+        height: 54px;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: 75px;
+    }
+    h1{
+        width: 458px;
+        font-size: 48px;
+        max-width: 140%;
+        margin-left: 40px;
+    }
+    .img1{
+        width: 355px;
+        height: 310px;
+        margin-left: 50px;
+    }
+    .img2{
+        width: 355px;
+        height: 234px;
+    }
+    .img3{
+        width: 355px;
+        height: 310px;
+    }
+    .button1{
+        top: 226vh;
+        left: 13vw;
+        width: 456px;
+        height: 88px;
+    }
+    .imgbg{
+        margin-top: 2000px;
+        margin-left: -1000px;
+        width: 1530px;
+        height: 780px;
+    }
+    .a1{
+        font-size: 24px;
+    }
+    .a2{
+        position: absolute;
+        top: 6.5vh;
+        right: -16.5vh;
     }
     .forms{
         width: 450px;
