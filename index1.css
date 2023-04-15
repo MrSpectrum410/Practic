@@ -1,6 +1,6 @@
 .body{
     font-family: sans-serif;
-    width: 1920px;
+    width: 1918px;
     height: 1080px;
 }
 .header{
@@ -109,11 +109,11 @@ h1{
 }
 @media (max-width: 1080px){
     .body{
-        width: 1024px;
+        width: 1015px;
         height: 1063px;
     }
     .header{
-        width: 1024px;
+        width: 1022px;
         height: 140px;
     }
     .section2{
@@ -141,8 +141,8 @@ h1{
 }
 @media (max-width: 540px){
     .body{
-        width: 540px;
-        height: 1235px;
+        width: 410px;
+        height: 892px;
     }
     .header{
         width: 540px;
@@ -166,5 +166,20 @@ h1{
     }
     .h1{
         font-size: 28px;
+        width: 470px;
+    }
+    .imgsvg{
+        width: 140px;
+        margin-left: 40px;
+    }
+    .button{
+        padding: 0;
+        width: 205px;
+        height: 54px;
+        margin-right: 40px;
+        font-size: 14px;
+    }
+    .section{
+        margin-left: 40px;
     }
 }
